@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+```markdown
+# 📄 NextWise
 
-First, run the development server:
+**NextWise** is a full-stack AI-powered platform designed to help users build professional resumes, craft tailored cover letters, gain actionable industry insights, and prepare for job interviews — all in one place.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Features
+
+✅ **Resume Builder**  
+Create ATS-friendly resumes with customizable templates and sections.
+
+✅ **Cover Letter Generator**  
+Generate personalized cover letters using AI, aligned with job descriptions and your profile.
+
+✅ **AI Interview Preparation**  
+Simulate real interview scenarios with AI-generated questions and instant feedback.
+
+✅ **Industry Insights**  
+Access data-driven insights on trends, in-demand skills, and salary benchmarks for your target roles.
+
+✅ **Full-Stack Integration**  
+Combines a modern frontend with robust backend APIs and AI models via secure API calls.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **AI Integration:** OpenAI API
+
+
+
+---
+
+
+````
+
+---
+
+## ⚙️ Setup & Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/prakriti82/NextWise.git
+   cd NextWise
+````
+
+2. **Install dependencies**
+
+   ```bash
+   # Backend
+   cd server
+   npm install
+
+   # Frontend
+   cd ../client
+   npm install
+   ```
+
+3. **Create `.env` files**
+
+   * Add your API keys (e.g., OpenAI) and MongoDB connection string.
+
+4. **Run the application**
+
+   ```bash
+   # Backend
+   cd server
+   npm run dev
+
+   # Frontend
+   cd ../client
+   npm start
+   ```
+
+5. Visit `http://localhost:3000` to view the app.
+
+---
+
+## 🔑 Environment Variables
+
+Example `.env`:
+
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+MONGODB_URI=your_mongodb_connection_string_here
+PORT=5000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧩 Future Improvements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Multi-language support
+* Additional resume templates
+* Advanced interview analytics
+* Job board integration
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📜 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+```
